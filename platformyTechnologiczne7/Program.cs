@@ -2,7 +2,10 @@
 
 AppContext.SetSwitch("System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization", true);
 
+// command line arguments
 
-Console.WriteLine("Hello, World!");
+var arguments = Environment.GetCommandLineArgs();
 
-var formatter = new BinaryFormatter();
+Console.WriteLine("GetCommandLineArgs: {0}", string.Join(", ", arguments));
+
+/*var formatter = new BinaryFormatter();*/
