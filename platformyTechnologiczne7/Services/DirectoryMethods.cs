@@ -1,8 +1,4 @@
-﻿using System;
-using System.ComponentModel.Design;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+﻿namespace platformyTechnologiczne7.Services;
 
 public class DirectoryMethods
 {
@@ -131,4 +127,3 @@ public class DirectoryMethods
 
 
 }
-
