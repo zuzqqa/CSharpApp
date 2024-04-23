@@ -50,7 +50,7 @@ public class DirectoryMethods
 
             string lastModified = entry.LastWriteTime.ToString("MMM dd HH:mm");
 
-            Console.WriteLine($"{entryType}{permissions,-3} {owner,-2} {group,-10} {size,-10} {lastModified,-10} {entry.Name}\n");
+            Console.WriteLine($"{entryType}{permissions,-3} {owner,-2} {group,-2} {size,-1} {lastModified,-2} {entry.Name}");
                 
         }
 

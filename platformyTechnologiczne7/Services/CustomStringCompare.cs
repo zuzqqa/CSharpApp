@@ -1,5 +1,5 @@
 ﻿namespace platformyTechnologiczne7.Services;
-
+[Serializable]
 public class CustomStringComparer : IComparer<string>
 {
     public int Compare(string? x, string? y)
